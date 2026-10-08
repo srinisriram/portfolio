@@ -1,11 +1,163 @@
+html {
+    --color-accent: oklch(80% 0.12 230);
+    accent-color: var(--color-accent)
+}
+
 body {
   /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 1em;
+}
+
+form {
+
+    display: grid;
+
+    grid-template-columns: auto 1fr;
+
+    gap: 1em;
+
+    label {
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-column: 1 / -1;
+    }
+
+    button {
+        grid-column: 1 / -1;
+    }
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+input {
+    font: inherit;
+}
+
+textarea {
+    font: inherit;
+}
+
+button {
+    font: inherit;
+}
+
+nav {
+
+    display: flex;
+    margin-bottom: 1em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
+
+  ul {
+    display: contents;
+  }
+  
+  li {
+    display: contents;
+  }
+
+  a {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  a.current{
+    border-bottom-style: solid;
+    border-bottom-width: 0.4em;
+    border-bottom-color: oklch(80% 3% 200);
+    padding-bottom: 0.1em;
+  }
+
+  a:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 0.4em;
+    border-bottom-color: var(--color-accent);
+    padding-bottom: 0.1em;
+  }
+
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+
+    article {
+
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 3;
+
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+body.resume {
+
+    h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        margin-bottom: 1em;
+        font-size: 200%;
+        margin-top: 1em;
+        font-weight: 800;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: oklch(77.922% 0.01721 297.308);
+    }
+
+    article {
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        font-size: 120%;
+        font-weight: 700;
+        margin-bottom: 0.25em; 
+    }
+
+    p.role {
+        display: inline-block;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #2c5282; 
+        background-color: #ebf8ff;
+        padding: 2px 10px;
+        border-radius: 4px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    p.date {
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }   
 }
