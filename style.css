@@ -176,3 +176,32 @@ body.resume {
 select {
     font: inherit;
 }
+
+#profile-stats dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: color-mix(in oklch, canvas, canvasText 5%);
+    border: 1px solid color-mix(in oklch, canvas, canvasText 12%);
+    border-radius: 12px;
+    padding: 1.5em;
+    gap: 0.5em;
+    text-align: center;
+}
+
+#profile-stats dt {
+    grid-row: 1;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+#profile-stats dd {
+    grid-row: 2;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.projects article h2 {
+    font-size: 1.25em;
+    line-height: 1.3;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "GRPO Reimplementation",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Reimplemented Group Relative Policy Optimization for language model post-training, including group-relative advantages, clipped policy objectives, and KL regularization. Evaluated the approach on mathematical reasoning tasks."
+  },
+  {
+    "title": "VR Spatial Navigation Research",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Investigated human spatial representations in virtual reality navigation, using trajectory alignment, geometric comparisons, and statistical analysis to compare walkthrough and retrace behavior."
+  },
+  {
+    "title": "CasePilot AI Engineering Assistant",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a proof-of-concept AI engineering assistant during a summer internship to investigate development tickets, analyze relevant context, and support engineering workflows."
+  },
+  {
+    "title": "NYPD Accountability Visualization",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created data visualizations for DSC 106 examining civilian complaints, substantiated allegations, disciplinary outcomes, and officer accountability using NYPD CCRB data."
+  },
+  {
+    "title": "Grocery Price Comparison",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed matched grocery products across retailers to compare prices while accounting for differences in brand, package size, and product characteristics."
+  },
+  {
+    "title": "Fantasy Football Assistant",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A Python-based fantasy football assistant project exploring how data can support roster and player decisions."
+  },
+  {
+    "title": "RIIS",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Our project for LA Hacks, where we built a search-and-rescue robotics platform that provides 3D capturing of rescue scenes before any human enters the building."
+  },
+  {
+    "title": "Power Outage Duration Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Explored power outage data through a data science analysis project focused on outage duration and related patterns."
+  },
+  {
+    "title": "EEG Emotion Recognition",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Trained a gated recurrent unit (GRU) model on EEG signal data to predict emotional states."
+  },
+  {
+    "title": "Drowsiness Detection",
+    "year": "2021",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a computer vision project for detecting signs of drowsiness from eye imagery using OpenCV and Keras."
+  },
+  {
+    "title": "Face Mask Detection",
+    "year": "2021",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed an early computer vision project focused on identifying face mask usage in images or video."
+  },
+  {
+    "title": "People Counter",
+    "year": "2020",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "An early Python project exploring automated people counting through computer vision."
+  }
+]
