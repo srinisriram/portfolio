@@ -231,6 +231,10 @@ dl.stats dd {
     line-height: 1.2;
 }
 
+dl.stats:empty {
+    display: none;
+}
+
 .projects article h2 {
     font-size: 1.25em;
     line-height: 1.3;
