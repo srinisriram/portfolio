@@ -105,13 +105,21 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     for (let i = 0; i < projects.length; i++){
         const project = projects[i];
 
+        // Local image paths are relative to the site root, so they work from any page
+        const image = project.image.startsWith('http') ? project.image : BASE_PATH + project.image;
+
+        const link = project.url
+            ? `<p><a href="${project.url}" target="_blank">View project →</a></p>`
+            : '';
+
         const article = document.createElement('article');
         article.innerHTML = `
             <${headingLevel}>${project.title}</${headingLevel}>
-            <img src="${project.image}" alt="${project.title}">
+            <img src="${image}" alt="${project.title}">
             <div>
                 <p>${project.description}</p>
                 <p class="project-year">c. ${project.year}</p>
+                ${link}
             </div>
         `;
 
