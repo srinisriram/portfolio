@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bikewatching"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "bikewatching"
+    }
+}
